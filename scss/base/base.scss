@@ -1,0 +1,12 @@
+// base > base.scss
+// ************************
+@use "../setting/color";
+@use "../mixin/mixin";
+
+p {
+	color: color.$base-color;
+}
+
+div {
+	@include mixin.center;
+}
